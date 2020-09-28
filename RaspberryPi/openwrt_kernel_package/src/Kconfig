@@ -1,0 +1,5 @@
+config GPIO_CUSTOM
+	tristate "Custom GPIO driver for LED"
+	select GPIO
+	help
+	  This module is a custom GPIO driver for LED
